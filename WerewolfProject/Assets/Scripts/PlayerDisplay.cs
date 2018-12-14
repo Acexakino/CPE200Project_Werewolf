@@ -57,7 +57,7 @@ public class PlayerDisplay : WerewolfElement{
 
     private void ChangeImageWithRole(Role role)
     {
-        if(role != null)
+        if(role.name != null)
         {
             switch (role.name)
             {
